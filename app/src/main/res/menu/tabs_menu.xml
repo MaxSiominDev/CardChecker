@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/check_graph"
+        android:title="@string/card"
+        android:icon="@drawable/ic_card"/>
+
+    <item android:id="@id/settings_graph"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings" />
+
+</menu>
