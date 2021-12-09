@@ -1,4 +1,4 @@
-# QR Generator &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# Card Checker &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 Check card numbers using this app. It uses luhn algorithm to determine if the card is valid. This app don't save any data
 ## Installation
 
@@ -19,4 +19,4 @@ Auth and analytics are not used besause of privacy.
 DI implemented with Hilt.
 
 ## License 
-QR generator is [MIT licensed](./LICENSE).
+Card checker is [MIT licensed](./LICENSE).
