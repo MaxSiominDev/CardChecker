@@ -1,4 +1,4 @@
-package dev.maxsiomin.luhn.fragments.card
+package dev.maxsiomin.luhn.fragments.check
 
 import android.os.Bundle
 import android.view.View
@@ -10,14 +10,17 @@ import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import dev.maxsiomin.luhn.R
 import dev.maxsiomin.luhn.databinding.FragmentCheckBinding
-import dev.maxsiomin.luhn.extensions.*
-import dev.maxsiomin.luhn.fragments.base.BaseFragment
+import dev.maxsiomin.luhn.extensions.clearError
+import dev.maxsiomin.luhn.extensions.disableScreenshots
+import dev.maxsiomin.luhn.extensions.enableScreenshots
+import dev.maxsiomin.luhn.extensions.isNotNullOrBlank
 import dev.maxsiomin.luhn.fragments.base.BaseViewModel
 import dev.maxsiomin.luhn.util.Luhn
+import dev.maxsiomin.luhn.util.SecureFragment
 import timber.log.Timber
 
 @AndroidEntryPoint
-class CheckFragment : BaseFragment(R.layout.fragment_check) {
+class CheckFragment : SecureFragment(R.layout.fragment_check) {
 
     private lateinit var binding: FragmentCheckBinding
 

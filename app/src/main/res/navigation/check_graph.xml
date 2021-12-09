@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/checkFragment"
-        android:name="dev.maxsiomin.luhn.fragments.card.CheckFragment"
+        android:name="dev.maxsiomin.luhn.fragments.check.CheckFragment"
         android:label="fragment_check"
         tools:layout="@layout/fragment_check" />
 

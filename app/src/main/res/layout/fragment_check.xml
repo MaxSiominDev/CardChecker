@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".fragments.card.CheckFragment"
+    tools:context=".fragments.check.CheckFragment"
     android:orientation="vertical">
 
     <com.google.android.material.textfield.TextInputLayout
