@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity(), Updater {
 
     class UpdateDialog : DialogFragment() {
 
-        private val updater get() = requireActivity() as Updater
+        private val updater get() = activity as Updater
 
         override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
 
